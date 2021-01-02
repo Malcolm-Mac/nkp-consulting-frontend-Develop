@@ -8,7 +8,7 @@ import {HomeComponent} from './home/home.component';
 
 
 const routes: Routes = [
-  {path:'home', component:HomeComponent},
+  {path:'', component:HomeComponent},
   {path:'services', component:ServicesComponent},
   {path: 'contact', component: ContactComponent},
   {path:'about', component:AboutComponent}
@@ -18,5 +18,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
 export const routingComponents = [ContactComponent,HomeComponent,NavigationComponent,ServicesComponent,AboutComponent]
