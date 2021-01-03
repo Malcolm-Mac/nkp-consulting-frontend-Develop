@@ -1,1 +1,1 @@
-web: node dist/scripts.js
+web: node dist\nkp-consulting-frontend/scripts.js
